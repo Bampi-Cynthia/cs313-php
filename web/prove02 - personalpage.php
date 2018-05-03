@@ -12,7 +12,7 @@
             <nav id="nav">
                 <ul>
                     <li><a href="https://pacific-caverns-35170.herokuapp.com/prove02%20-%20personalpage.php">Home </a></li>
-                    <li><a href="https://pacific-caverns-35170.herokuapp.com/prove02%20-%20cs.php">Page 1 </a></li>
+                    <li><a href="https://pacific-caverns-35170.herokuapp.com/cs.php">Page I</a></li>
                 
                 </ul>
             </nav>
