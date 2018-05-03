@@ -8,7 +8,7 @@
 </head>
 <body>
 	<title>Personal Homepage</title>
-	<img class="photographer" src="./IMG_5270.jpg" alt="photographer" />
+	<img class="photographer" src="IMG_5270.jpg" alt="photographer" />
 	<h1> About me</h1>
 	
 	<p>Hello! I am a sophomore at BYU-Idaho, studying Web Design and Web Development. I love photograph and design. I will be ready to graduate in december 2018.
