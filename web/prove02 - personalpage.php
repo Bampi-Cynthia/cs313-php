@@ -20,6 +20,7 @@ My dream is one day to have my own business and photograph and designing. Hopefu
 <?php
 date_default_timezone_set("America/Denver");
 echo "The time is " . date("h:i:sa");
+
 ?>
 </body>
 	</html>
