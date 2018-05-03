@@ -15,5 +15,7 @@ p{
 }
 body{
 	
-	margin: 5px auto;
+	width:800px;
+	background-image:./brickwall_@2X.png;
+    background-repeat: repeat;
 }
