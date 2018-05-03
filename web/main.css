@@ -16,6 +16,6 @@ p{
 body{
 	
 	width:800px;
-	background-image:./brickwall_@2X.png;
+	background-image:url(brickwall_@2X.png);
     background-repeat: repeat;
 }
