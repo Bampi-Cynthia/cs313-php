@@ -1,7 +1,7 @@
 .photographer{
 	width:150px;
 	
-	margin-left:600px;
+	margin-left:800px;
 }
 
 h1{
@@ -11,4 +11,9 @@ h1{
 p{
 	font-family: Arial, Helvetica, san-serif;
 	color:#000066;
+	
+}
+body{
+	margin:800px;
+	align:center;
 }
