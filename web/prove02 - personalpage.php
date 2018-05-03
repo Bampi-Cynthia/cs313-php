@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
+<img class="photographer" src="IMG_5270.JPG" alt="photographer" />
 <div class="wrapper">
         <header>
             <nav id="nav">
@@ -19,7 +20,7 @@
         </header>
 
 	<title>Personal Homepage</title>
-	<img class="photographer" src="IMG_5270.JPG" alt="photographer" />
+	
 	<h1> About me</h1>
 	
 	<p>Hello! I am a senior at BYU-Idaho, studying Web Design and Web Development. I love photograph and design. I will be ready to graduate in december 2018.
