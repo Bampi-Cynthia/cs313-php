@@ -1,3 +1,8 @@
 .photographer{
-	width:200px;
+	width:150px;
+	float:right;
+}
+h1{
+	font-weight:italic;
+	font-color: #00b386;
 }

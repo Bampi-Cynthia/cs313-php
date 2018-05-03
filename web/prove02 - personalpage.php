@@ -18,7 +18,7 @@ I am a mom of three beautiful kids, and married to my best friend for 10 years. 
 My dream is one day to have my own business and photograph and designing. Hopefully you will like my work!</p>
 
 <?php
-date_default_timezone_set("America/New_York");
+date_default_timezone_set("America/Denver");
 echo "The time is " . date("h:i:sa");
 ?>
 </body>
