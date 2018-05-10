@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="autor" content="Cynthia Bampi">
+    <title>Shopping Cart | CS 313</title>
+    <link rel="stylesheet" type="text/css" href="shopcart.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <body>
+    <h2>Shopping Cart</h2>
+
 <?php
 
 // Must be called anywhere you want to use sessions!
@@ -29,7 +41,7 @@ require('products.php');
        ?>
        <input type="number" name="qty" min="1">
             <button>Add</button>
-
+            cbampi  
        </form>
    
       <?php 

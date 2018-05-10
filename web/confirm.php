@@ -23,7 +23,7 @@
 				foreach($products as $product){
 					echo "<p>$product</p>";
 				}
-			echo "to your place: " . $_SESSION["street"] . ", " . $_SESSION["houseNum"] . ", " . $_SESSION["city"] . " " . $_SESSION["state"] . " " . $_SESSION["zipCode"];
+			echo "to your home: " . $_SESSION["street"] . ", " . $_SESSION["houseNum"] . ", " . $_SESSION["city"] . " " . $_SESSION["state"] . " " . $_SESSION["zipCode"];
 		?>
 		<h3>Thank you.</h3>
 	</body>
