@@ -52,7 +52,7 @@ require('products.php');
   <select name="item">
     <?php
       foreach ($products as $key => $data) {
-        echo "<option value=\"{$key}\">{$data['label']}</option>";
+        echo "<option value=\"{$key}\">{$data['label']}{$data['description']}</option>";
       }
     ?>
   </select>
