@@ -6,7 +6,7 @@
 $products = array(
   'dress' => array(
   'label' => 'Dress',
-  'image' =>'bluedress.jpg'
+  'image' =>'bluedress.jpg',
   'description' => 'A pretty blue dress'
   ),
   
