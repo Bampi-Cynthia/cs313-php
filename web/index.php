@@ -24,7 +24,8 @@ if (!isset($_SESSION['cart'])) {
     'short' => 0
   );
 }
-    
+    <?php 
+echo $data['description']; ?>
 require('products.php');
 
 ?>
@@ -35,8 +36,6 @@ require('products.php');
       foreach ($products as $key => $data) { 
       
     ?>
-    <?php 
-echo $data['description']; ?>
     <img class="dress" src="<?php echo $data['image']; ?>">
        <form action="add.php" method="POST"> 
        <?php 
