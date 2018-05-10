@@ -5,7 +5,7 @@ session_start();
 require('products.php');
 
 foreach ($_SESSION['cart'] as $key => $qty) {
-  echo $products[$key] . ': ' . $qty . '<br>';
+  echo $products[$key]['label'] . ': ' . $qty . '<br>';
 }
 ?>
 
