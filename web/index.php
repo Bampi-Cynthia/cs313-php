@@ -60,5 +60,5 @@ require('products.php');
   <button>Remove</button>
 </form>
 
-<a href="cart.php"><img class='cart' scr="carticon.png"></a>
+<a href="cart.php"><img class='cart' https://thenounproject.com/term/shopping-cart/106006/"></a>
 <a href="checkout.php">Check Out</a>
