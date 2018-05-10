@@ -33,7 +33,7 @@ require('products.php');
 <form action="remove.php" method="POST">
   <select name="item">
     <?php
-      foreach ($products as $key => $$data) {
+      foreach ($products as $key => $data) {
         echo "<option value=\"{$key}\">{$data['label']}</option>";
       }
     ?>
