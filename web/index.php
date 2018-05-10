@@ -28,14 +28,15 @@ if (!isset($_SESSION['cart'])) {
 require('products.php');
 
 ?>
-<?php 
-echo $data['description']; ?>
+
 
 
     <?php
       foreach ($products as $key => $data) { 
       
     ?>
+    <?php 
+echo $data['description']; ?>
     <img class="dress" src="<?php echo $data['image']; ?>">
        <form action="add.php" method="POST"> 
        <?php 
