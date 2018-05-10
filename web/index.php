@@ -9,6 +9,7 @@
     
     <body>
     <h2>Shopping Cart</h2>
+    <
 
 <?php
 
@@ -41,7 +42,7 @@ require('products.php');
        ?>
        <input type="number" name="qty" min="1">
             <button>Add</button>
-            cbampi  
+            
        </form>
    
       <?php 
