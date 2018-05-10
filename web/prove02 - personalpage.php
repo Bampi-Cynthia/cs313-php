@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="autor" content="Cynthia Bampi">
     <title>CS 313 | Personal Homepage</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="maincss.css" />
 </head>
 <body>
 <img class="photographer" src="IMG_5270.JPG" alt="photographer" />
