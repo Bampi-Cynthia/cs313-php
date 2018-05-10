@@ -12,12 +12,12 @@ $products = array(
   
   'top'   => array (
   'label' => 'Top',
-  'image' =>'img/dress.jpg'
+  'image' =>'top.jpg'
   ),
   
 
   'short' => array(
   'label' => 'Short',
-  'image' =>'img/dress.jpg'
+  'image' =>'short.jpg'
   )
 );
