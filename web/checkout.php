@@ -2,7 +2,6 @@
 
 session_start();
 
-session_destroy();
 
 header('Location: index.php');
 ?>
@@ -13,7 +12,7 @@ header('Location: index.php');
     </head>
     <body>
         <?php
-                echo "Hello, " . $_SESSION['unsername']. "Please type in your address";
+                echo "Hello, " . $_SESSION['username']. "Please type in your address";
         ?>
         <form action='conform.php' method='post'>
                 Street Name:<br>

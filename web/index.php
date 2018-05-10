@@ -21,7 +21,7 @@ require('products.php');
     <?php
       foreach ($products as $key => $data) { 
     ?>
-    <img src="<?php echo $data['image']; ?>">
+    <img class="dress" src="<?php echo $data['image']; ?>">
        <form action="add.php" method="POST"> 
        <?php 
        echo '<input type="hidden" name="item" value="' . $key . '">'; 
@@ -47,5 +47,5 @@ require('products.php');
   <button>Remove</button>
 </form>
 
-<a href="cart.php">Cart</a>
+<a href="cart.php"><img src="http://www.clker.com/cliparts/J/C/X/z/E/s/shopping-cart-hi.png"></a>
 <a href="checkout.php">Check Out</a>
