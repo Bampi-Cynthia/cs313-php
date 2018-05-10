@@ -24,8 +24,7 @@ if (!isset($_SESSION['cart'])) {
     'short' => 0
   );
 }
-    <?php 
-echo $data['description']; ?>
+   
 require('products.php');
 
 ?>
@@ -37,6 +36,9 @@ require('products.php');
       
     ?>
     <img class="dress" src="<?php echo $data['image']; ?>">
+     <?php 
+        echo $data['description']; 
+     ?>
        <form action="add.php" method="POST"> 
        <?php 
        echo '<input type="hidden" name="item" value="' . $key . '">'; 
