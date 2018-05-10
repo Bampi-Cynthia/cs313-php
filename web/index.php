@@ -20,8 +20,8 @@ require('products.php');
 <form action="add.php" method="POST">
   <select name="item">
     <?php
-      foreach ($products as $key => $label) {
-        echo "<option value=\"{$key}\">$label</option>";
+      foreach ($products as $key => $data) {
+        echo "<option value=\"{$key}\">{$data['label']}</option>";
       }
     ?>
   </select>
@@ -33,8 +33,8 @@ require('products.php');
 <form action="remove.php" method="POST">
   <select name="item">
     <?php
-      foreach ($products as $key => $label) {
-        echo "<option value=\"{$key}\">$label</option>";
+      foreach ($products as $key => $$data) {
+        echo "<option value=\"{$key}\">{$data['label']}</option>";
       }
     ?>
   </select>

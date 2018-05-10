@@ -8,3 +8,10 @@ $qty  = $_POST['qty'];
 $_SESSION['cart'][$item] += $qty;
 
 header('Location: cart.php');
+
+
+
+
+
+
+?>
