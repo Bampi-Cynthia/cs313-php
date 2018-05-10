@@ -21,6 +21,7 @@ require('products.php');
     <?php
       foreach ($products as $key => $data) { 
     ?>
+    <img src="<?php echo $data['image']; ?>">
        <form action="add.php" method="POST"> 
        <?php 
        echo '<input type="hidden" name="item" value="' . $key . '">'; 
