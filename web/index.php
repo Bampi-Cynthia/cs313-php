@@ -23,7 +23,7 @@ require('products.php');
     ?>
        <form action="add.php" method="POST"> 
        <?php 
-       echo '<input type="hidden" value="' . $key . '">'; 
+       echo '<input type="hidden" name="item" value="' . $key . '">'; 
 
        ?>
        <input type="number" name="qty" min="1">
