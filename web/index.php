@@ -17,20 +17,24 @@ require('products.php');
 ?>
 
 
-<form action="add.php" method="POST">
-  <select name="item">
+
     <?php
-      foreach ($products as $key => $data) {
-        echo "<option value=\"{$key}\">{$data['label']}</option>";
-      }
+      foreach ($products as $key => $data) { 
     ?>
-  </select>
-  <input type="number" name="qty" min="1">
-  <button>Add</button>
-</form>
+       <form action="add.php" method="POST"> 
+       <?php 
+       echo '<input type="hidden" value="' . $key . '">'; 
 
+       ?>
+       <input type="number" name="qty" min="1">
+            <button>Add</button>
 
-<form action="remove.php" method="POST">
+       </form>
+   
+      <?php 
+    }
+       ?>
+  <form action="remove.php" method="POST">
   <select name="item">
     <?php
       foreach ($products as $key => $data) {
