@@ -33,7 +33,7 @@ require('products.php');
 
     <?php
       foreach ($products as $key => $data) { 
-      echo {$data['description']},
+      
     ?>
     <img class="dress" src="<?php echo $data['image']; ?>">
        <form action="add.php" method="POST"> 
