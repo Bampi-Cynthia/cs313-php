@@ -36,6 +36,9 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 80%;
 	text-align:center;
+}
+.cart{
+	width:15px;
 }
