@@ -24,11 +24,12 @@ if (!isset($_SESSION['cart'])) {
     'short' => 0
   );
 }
-
+    
 require('products.php');
 
 ?>
-
+<?php 
+echo $data['description']; ?>
 
 
     <?php
