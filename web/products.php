@@ -25,6 +25,6 @@ relaxed fit will be giving everyone heart eyes! $35 each'
   'label' => 'Short',
   'image' =>'short.jpg',
   'description' => 'Button It Up Short - See the sights, relax and lounge, 
-shop til you drop….this is the ideal piece for any warm weather vacay! $39.99 each'
+this is the ideal piece for any warm weather vacay! $39.99 each'
   )
 );
