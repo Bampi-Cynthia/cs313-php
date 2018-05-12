@@ -1,0 +1,30 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application:
+https://pacific-caverns-35170.herokuapp.com/index.php
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/Bampi-Cynthia/cs313-php/tree/master/web
+
+3. Briefly list and describe the elements of the application that are functioning. Include any special instructions about how to login and/or use your application.
+The adding on cart, looking at the cart and checkout cart is also working. To add the item you need to add a number of items and click on add or remove.
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+I wish I could put the item description centralized in the box, but I could not figured it out how. 
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+I learned that I can make a shopping cart! It was so fun to write code by code and see the cart come to life. It is not yet how I picture it, but it is cool I can make that!
+6. List one strength and one limitation of using cookies.
+One strength is that tcookies persist a much longer period of time than Session state. One limitation is that users can refuse cookies, so code wise it has to anticipate that possibility.
+
+	7. Please select the category you feel best describes your assignment:
+	A - Some attempt was made
+	B - Developing, but significantly deficient
+	C - Slightly deficient, but still mostly adequate
+ X  D - Meets requirements
+	E - Shows creativity and excels above and beyond requirements
+
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+I did all the requirements of the assignment. All the requirements work. I wish I could have more time to do all the 
+requirements for the above and beyond. Hopefully I will be able to do better along the semester.
