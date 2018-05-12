@@ -64,5 +64,5 @@ require('products.php');
   <button>Remove</button>
 </form>
 
-<a href="cart.php"><img class='cart' src="http://www.clker.com/cliparts/J/C/X/z/E/s/shopping-cart-hi.png"></a>
+<a href="cart.php"><img class='cart' src="http://www.clker.com/cliparts/J/C/X/z/E/s/shopping-cart-hi.png" alt ="cart"></a>
 <a href="checkout.php">Check Out</a>
