@@ -1,17 +1,19 @@
 
 body{
-    background-color:
+    background-color:#eee;
 
 }
 
 h1{
-    font-family:monospace;
+    
     font-size:1.8em;
-    color:green;
+    color:#000099;
 }
-
+h2:before {
+  content: '•';
+}
     h2{
     font-family:'Montserrat', sans-serif;
-    color:#eee;
+    color:#FF9999;
     font-size:1.3em;
     }
