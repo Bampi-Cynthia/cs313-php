@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title> Clothing Store</title>
+    <style>
+    
+    </style>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+    <h1>Clothing Store</h1>
+
 <?php
 require('db.php');
 $stmt = $db->query("SELECT 
@@ -20,3 +35,7 @@ while($row = $stmt->fetch()){
     echo '<h2>'. $row['name']."</h2>";
     
 }
+        
+?>
+    </body>
+</html>
