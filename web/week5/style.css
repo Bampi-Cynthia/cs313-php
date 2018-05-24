@@ -1,19 +1,19 @@
 
 body{
-    background-color:#eee;
+    background-color:#F2F2F2;
 
 }
 
 h1{
-    
+    font-family: 'Pacifico', cursive;
     font-size:1.8em;
-    color:#000099;
+     color:#FF9999;
 }
 h2:before {
   content: '•';
 }
     h2{
     font-family:'Montserrat', sans-serif;
-    color:#FF9999;
-    font-size:1.3em;
+  
+   
     }
