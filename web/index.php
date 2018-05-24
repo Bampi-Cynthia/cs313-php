@@ -20,7 +20,7 @@ if(!empty($_POST['name'])) {
     $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
     $likename = '%' . $name . '%';
 
-    $stmt = $db->prepare('SELECT * FROM product.name WHERE name LIKE :Name');
+    $stmt = $db->prepare('SELECT * FROM product.name WHERE name LIKE :name');
     $stmt->bindValue(':name', $likename, PDO::PARAM_STR);
     $stmt->execute();
     $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -48,7 +48,7 @@ foreach($rows as $row) {
 
 <br>
 <form action="index.php" method="post">
-    <strong><label for="name">Name:</label></strong>
+    <strong><label for="name">name:</label></strong>
     <input type="text" name="name" id="name">
     <input type="submit" value="Search">
 </form>
