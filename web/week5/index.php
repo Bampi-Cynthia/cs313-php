@@ -14,7 +14,9 @@ ON product.category_id = category.id
 INNER JOIN size
 ON product.size_id = size.id;");
 while($row = $stmt->fetch()){
-    echo '<pre>';
-    var_dump($row);
-    echo '</pre>';
+   // echo '<pre>';//
+   // var_dump($row);//
+  //  echo '</pre>';//
+    echo '<h2>'. $row['name']."</h2>";
+    
 }
