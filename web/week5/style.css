@@ -1,6 +1,6 @@
 
 body{
-    background-color:aquamarine;
+    background-color:
 
 }
 
@@ -9,11 +9,9 @@ h1{
     font-size:1.8em;
     color:green;
 }
-h2:before {
-  content: '•';
-}
+
     h2{
-    font-family:'Monotype Corsiva';
-    color:#FF9999;
+    font-family:'Montserrat', sans-serif;
+    color:#eee;
     font-size:1.3em;
     }
