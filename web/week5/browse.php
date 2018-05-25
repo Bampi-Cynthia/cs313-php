@@ -1,4 +1,17 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    
+    <title> Clothing Store</title>
+    <style>
+    
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico" rel="stylesheet">  
+    </head>
+    
+    <body>
 <?php
 require('db.php');
 $currentPage = 'browse.php';
