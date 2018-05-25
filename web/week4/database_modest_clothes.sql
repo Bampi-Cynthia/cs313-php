@@ -1,3 +1,4 @@
+//NEVER runa UPDATE or DELETE queries without a WHERE clause//
 
 
 
@@ -70,8 +71,9 @@ CREATE TABLE product (
   name        VARCHAR(64) NOT NULL UNIQUE,
   price       MONEY       NOT NULL
 );
-
-
+//add picture
+ALTER TABLE product ADD COLUMN description VARCHAR(256);
+ALTER TABLE product ADD COLUMN image_url   VARCHAR(256);
 
 
 INSERT INTO product (name, price, category_id, size_id) VALUES
