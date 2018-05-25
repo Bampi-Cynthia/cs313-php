@@ -17,3 +17,22 @@ h2:before {
   
    
     }
+#products {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 35em;
+}
+
+.product {
+  box-sizing: border-box;
+  flex: 1%;
+  padding: 1em;
+}
+
+
+.product img {
+  max-width: 100%;
+}
