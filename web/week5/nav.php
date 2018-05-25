@@ -12,7 +12,7 @@ $links = array(
             
             array(
             'url' =>'shopcart',
-            'text'='Shopping Cart'
+            'text'=>'Shopping Cart'
             )
 
 
