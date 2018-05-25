@@ -1,6 +1,7 @@
 
 <?php
 require('db.php');
+require('nav.php');
 ?>
 
 
