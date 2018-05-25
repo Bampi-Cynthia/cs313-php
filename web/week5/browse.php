@@ -34,6 +34,8 @@ require('nav.php');
     </select>
 <button>Search</button>
 </form>
+  <div id ='product'>
+      
 <?php
 if (isset($_POST['category'])) {
  $stmt = $db->prepare("SELECT 
@@ -60,11 +62,13 @@ while($row = $stmt->fetch()){
    // echo '<pre>';//
    // var_dump($row);//
   //  echo '</pre>';//
+    echo '<div class='product'>';
     echo '<h2>'. $row['name']."</h2>";
     echo '<img src ="' . $row['image_url'] . '">';
-    
+    echo '</div>;'
 }
 }
 
 
 ?>
+        </div>
