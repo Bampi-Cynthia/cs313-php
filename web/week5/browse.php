@@ -21,7 +21,32 @@ require('db.php');
 </form>
 <?php
 if (isset($_POST['category'])) {
-    var_dump($_POST);
+ $stmt = $db->prepare("SELECT 
+product.id,
+product.name,
+category.name AS category_name,
+product.price,
+size.name AS size
+FROM product
+INNER JOIN category 
+ON product.category_id = category.id
+
+
+INNER JOIN size
+ON product.size_id = size.id
+WHERE category.id = :cat_id
+;");
+    $stmt->bindValue('cat_id' , $_POST['category'],PDO::PARAM_INT );
+    
+    
+$stmt->execute();
+while($row = $stmt->fetch()){
+   // echo '<pre>';//
+   // var_dump($row);//
+  //  echo '</pre>';//
+    echo '<h2>'. $row['name']."</h2>";
+    
+}
 }
 
 
