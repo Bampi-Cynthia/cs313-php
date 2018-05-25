@@ -39,6 +39,7 @@ if (isset($_POST['category'])) {
  $stmt = $db->prepare("SELECT 
 product.id,
 product.name,
+product.image_url,
 category.name AS category_name,
 product.price,
 size.name AS size
@@ -60,6 +61,7 @@ while($row = $stmt->fetch()){
    // var_dump($row);//
   //  echo '</pre>';//
     echo '<h2>'. $row['name']."</h2>";
+    echo '<img src ="' . $row['image_url'] . '">';
     
 }
 }
