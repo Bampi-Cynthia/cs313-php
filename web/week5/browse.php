@@ -67,7 +67,7 @@ while($row = $stmt->fetch()){
     echo '<img src ="' . $row['image_url'] . '">';
     echo '</div>';
 }
-
+}
 
 ?>
         </div>
