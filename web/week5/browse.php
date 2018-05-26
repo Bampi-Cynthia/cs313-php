@@ -8,7 +8,7 @@
     
     </style>
     <link rel="stylesheet" href="style.css">
-     
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico" rel="stylesheet">  
     </head>
     
     <body>
