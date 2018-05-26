@@ -71,3 +71,5 @@ while($row = $stmt->fetch()){
 
 ?>
         </div>
+    </body>
+</html>
