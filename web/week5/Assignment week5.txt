@@ -1,0 +1,29 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application:
+https://pacific-caverns-35170.herokuapp.com/week5/browse.php
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/Bampi-Cynthia/cs313-php
+
+3. Briefly list and describe the elements of the application that are functioning. Include any special instructions about how to login and/or use your application.
+the description and the client search for the item, it is all working. CSS is not working the way I wanted but I am working on oit.
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+CSS is not working the way I wanted but I am working on oit.
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+to add pictures and data into sql
+6. Why should you create a separate user account for your application to access the database?
+To protect the user and the database
+
+7. Please select the category you feel best describes your assignment:
+A - Some attempt was made
+B - Developing, but significantly deficient
+C - Slightly deficient, but still mostly adequate
+X D - Meets requirements
+E - Shows creativity and excels above and beyond requirements
+
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+I did all in my power to attend the requirements for this assignments. CSS is not the way I want it yet, and pictures will come soon. Other than that it is a great work and it is done right.
