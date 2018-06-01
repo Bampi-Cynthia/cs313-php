@@ -15,7 +15,7 @@
 		<form method="POST" action="createaccount.php">
 			<input type="text" placeholder="email"/>
 			<input type="text" placeholder="password"/>
-			<input type="button" value='Create Account'/>
+			<input type="submit" value='Create Account'/>
 	
 	
 	
