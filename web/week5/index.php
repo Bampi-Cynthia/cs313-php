@@ -29,6 +29,7 @@ ON product.category_id = category.id
 
 INNER JOIN size
 ON product.size_id = size.id;");
+$stmt->execute();
 while($row = $stmt->fetch()){
    // echo '<pre>';//
    // var_dump($row);//
