@@ -1,0 +1,75 @@
+
+body{
+    background-color:#F2F2F2;
+
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size:2em;
+     color:#FF9999;
+}
+/*Main Navigation Style*/
+nav ul{
+   font-family:'Monotype Corsiva';
+    text-align:center;
+    list-style-type:none;
+    margin:0 2px;
+	padding:0px;
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    
+    display:inline;
+   
+}
+nav a:link{
+    color:#000;
+    text-decoration:none;
+    letter-spacing:0.2px;
+   
+    margin:20px;
+   
+    font-size:1.7em;
+    
+}
+nav a:visited{
+    color:#26C9A8;
+    
+}
+nav a:hover{
+    color:#D7DF23;
+}
+nav a:active{
+    color:#F2F2F2;
+}
+h2:before {
+  content: '•';
+}
+    h2{
+    font-family:'Montserrat', sans-serif;
+ 
+        
+        
+   
+    }
+#products {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 35em;
+}
+
+.product {
+  box-sizing: border-box;
+  flex: 1%;
+  padding: 1em;
+}
+
+
+.product img {
+  max-width: 100%;
+}

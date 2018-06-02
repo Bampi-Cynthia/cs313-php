@@ -1,0 +1,31 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application:
+https://pacific-caverns-35170.herokuapp.com/week5/browse.php
+https://pacific-caverns-35170.herokuapp.com/week5/login.php
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/Bampi-Cynthia/cs313-php
+
+3. Briefly list and describe the elements of the application that are functioning. Include any special instructions about how to login and/or use your application.
+the login is working. I still need to safe prode it, and elaborate it more so it looks professional and security safe
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+The dowload images, images that I dowloaded look broken. I am working on them, but it looks like an heroku problem, and CSS still needs work. I tried to contact the tutor for this class and apparently there is no tutor in this class anymore, so I am personally working on it, but without help it will take longer to fix it.
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+findining out php codes fo make the strings safe for the user personal data.
+
+6. What is a benefit of having a foreign key constraint?
+To enforce referential integrity and imporve perfomance. Database constantly maintains referential integrity.
+
+7. Please select the category you feel best describes your assignment:
+A - Some attempt was made
+B - Developing, but significantly deficient
+X C - Slightly deficient, but still mostly adequate
+D - Meets requirements
+E - Shows creativity and excels above and beyond requirements
+
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+Log in page not working the way it was yesterday, and broken images that upoloaded correctly to the server.
