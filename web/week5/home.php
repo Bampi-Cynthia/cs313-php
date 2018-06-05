@@ -4,7 +4,7 @@
 
 	<title>Modest Clothing Store</title>
     <meta charset = "utf-8"/>
-    <link href="styleguide.css" type="text/css" rel="stylesheet" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
 
 	</head>
 <d class="content">
@@ -16,11 +16,12 @@
 
 	<div>
 	<nav class="navbar"> 
-	 	<a href="web.html">Home</a>
+	 	<a href="home.php">Home</a>
 	 	<a href="#">Skirts</a>
 	 	<a href="#">Tops</a>
 	 	<a href="web1.html">Dresses</a>
 	 	<a href="#">Contact</a>
+        <a href='#'>Cart</a>
 	 	<a href="#" class="fa fa-shopping-bag"></a>
 	</nav>
 	</div>
