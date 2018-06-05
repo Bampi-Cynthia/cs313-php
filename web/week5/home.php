@@ -27,7 +27,7 @@
 	</div>
 
 
-	<img src="http://shoplovelyinlace.com/wp-content/uploads/2016/11/Online-Modest-Clothing-Stores.jpg">
+	<img class='backg' src="http://shoplovelyinlace.com/wp-content/uploads/2016/11/Online-Modest-Clothing-Stores.jpg">
 
 
 	<div><p>New Arrivals</p></div>
