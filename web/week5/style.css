@@ -1,59 +1,249 @@
+.head {
 
-body{
-    background-color:#F2F2F2;
+	background-color: #262626;
+	color: white;
+	font-family: "Avantgarde", Arial, sans-serif;
+	padding: 15px;
+  padding-top: 20px;
+	letter-spacing: 5px;
+	text-align: center;
 
+	}
+
+
+        body {
+              
+             max-width: 100%;
+            
+          padding: 0;
+          margin: 0 auto; }
+
+.content {
+  text-align: center;
 }
 
-h1{
-    font-family: 'Pacifico', cursive;
-    font-size:2em;
-     color:#FF9999;
-}
-/*Main Navigation Style*/
-nav ul{
-   font-family:'Monotype Corsiva';
-    text-align:center;
-    list-style-type:none;
-    margin:0 2px;
-	padding:0px;
-    display: flex;
-    justify-content: space-around;
-}
-nav li{
+	button {
+		text-decoration: none;
+		border: none;
+		background-color: white;
+     -webkit-transition-duration:    0.4s; /* Safari */
+    transition-duration: 0.4s;
+		}
+
+
+	.desc {
+		padding-left: 40px;
+		text-align: center;
+		font-family: "Avantgarde", Arial, sans-serif
+		}
+
+
+	h2 {
+
+		font-family: "Avantgarde", Arial, sans-serif
+		padding: 20px;
+		text-align: center;
+		font-size: 80px;
+		padding-bottom: 20px;
+
+		}
+
+	.pics {
+		width: 180px;
+		margin: 5px;
+		padding-left: 80px;
+		padding-top: 10px;
+		padding-bottom: 50px;
+		display: inline-block;
+		max-width: 80%;
+
+		}
+
+
+
+	a 	{
+
+		text-decoration-style: none;
+		text-decoration: none;
+		list-style-type: none;
+		text-decoration: none;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+
+		}
+
+
+	img {
+
+		text-align: center;
+
+		width: 100%;
+
+		padding-bottom: 30px;
+
+		}
+
+
+	.navbar {
+
+			display: block;
+			text-align: center;
+			padding-bottom: 20px;
+
+			}
+
+
+	.fa-shopping-bag {
+		float: right;
+		}
+
+
+	.shop {
+
+		border: 1px solid black;
+		border-color: #262626;
+		width: 120px;
+		padding: 10px;
+    margin: 0 auto;
+		}
+
+
+	.hrtext {
+		font-family: "Avantgarde", Arial, sans-serif;
+		background: white;
+		padding: 20px 20px;
+		width: 240px;
+		margin: 0px auto;	
+		position: relative;
+		top: -40px;
+		font-size: 20px;
+		letter-spacing: 2px;
+
+
+		}
+
+
+	hr {
+
+		margin-top: 180px;
+		}
+
+
+	p {
+
+		text-align: center;
+		font-size: 30px;
+		font-family: "Avantgarde", Arial, sans-serif;
+		letter-spacing:5px;
+
+		}
+
+
+	a:hover {
+
+		color: blue;
+
+		}
+
+
+	/* Three clomuns */
+
+
+	.column-lside {
+
+		list-style-type: none;
+		text-decoration: none;
+    width: 100%;
     
-    display:inline;
-   
+
+				}
+
+
+	.column-rside {
+
+				text-decoration: none;
+				list-style: none;
+        width: 100%;
+
+				}
+
+
+	.colmun {
+
+			float: left;
+			padding: 10px;
+
+			}
+
+
+
+	.row:after {
+
+				content: "";
+				display: table;
+				clear: both;
+				}
+
+
+	ul {
+
+		display: inline;
+		text-align: center;
+		text-decoration: none;
+		list-style-type: none;
+
+		}
+
+
+	.row {
+	 padding-bottom: 40px;
+   width: 100%;
+
+	}
+
+
+	.footer {
+		font-size: 13px;
+		font-family: "Avantgarde", Arial, sans-serif; 
+		text-align: center;
+		letter-spacing: 1px;
+		padding-bottom: 25px;
+	}
+
+	.footer2 {
+		font-size: 13px;
+		font-family: "Avantgarde", Arial, sans-serif; 
+		text-align: center;
+		letter-spacing: 1px;
+	}
+
+	.email2 {
+		text-align: center;
+		padding-bottom: 30px;
+		max-width: 100%;
+	}
+
+	.sub {
+		display: inline-block;
+		background-color: black;
+		color: white;
+		border: none;
+		padding: 5px 25px;
+		text-decoration: none;
+	}
+
+button:hover  {
+  background: black;
+  color: white;
+  background-color; black;
 }
-nav a:link{
-    color:#000;
-    text-decoration:none;
-    letter-spacing:0.2px;
-   
-    margin:20px;
-   
-    font-size:1.7em;
-    
+
+button:hover  {
+  background: black;
+  color: white;
+  background-color; black;
 }
-nav a:visited{
-    color:#26C9A8;
-    
-}
-nav a:hover{
-    color:#D7DF23;
-}
-nav a:active{
-    color:#F2F2F2;
-}
-h2:before {
-  content: '•';
-}
-    h2{
-    font-family:'Montserrat', sans-serif;
- 
-        
-        
-   
-    }
 #products {
   box-sizing: border-box;
   display: flex;
