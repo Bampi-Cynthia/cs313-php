@@ -43,7 +43,7 @@ product.id,
 product.name,
 product.image_url,
 category.name AS category_name,
-product.price,
+product.price AS price,
 size.name AS size
 FROM product
 INNER JOIN category 
@@ -63,8 +63,9 @@ while($row = $stmt->fetch()){
    // var_dump($row);//
   //  echo '</pre>';//
     echo '<div class="product">';
-    echo '<h3>'. $row['name']."</h3>";
+    echo '<h4>'. $row['name']."</h4>";
     echo '<img src ="' . $row['image_url'] . '">';
+    echo '<p>'. $row['price']."</p>";
     echo '</div>';
 }
 }

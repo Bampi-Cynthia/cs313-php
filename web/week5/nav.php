@@ -11,7 +11,7 @@ $links = array(
         
             
             array(
-            'url' =>'week3/shopcart.php',
+            'url' =>'shopcart.php',
             'text'=>'Shopping Cart'
             )
 
