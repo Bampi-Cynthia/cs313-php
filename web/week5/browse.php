@@ -63,7 +63,7 @@ while($row = $stmt->fetch()){
    // var_dump($row);//
   //  echo '</pre>';//
     echo '<div class="product">';
-    echo '<h5>'. $row['name']."</h5>";
+    echo '<h3>'. $row['name']."</h3>";
     echo '<img src ="' . $row['image_url'] . '">';
     echo '</div>';
 }
