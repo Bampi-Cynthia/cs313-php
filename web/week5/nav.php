@@ -1,7 +1,7 @@
 <?php
 $links = array(
         array(
-            'url =>home.php',
+            'url =>week5/home.php',
             'text' =>'Home'
             ),
     
