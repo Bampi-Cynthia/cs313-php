@@ -1,8 +1,13 @@
 <?php
 $links = array(
         array(
+            'url =>home.php',
+            'text' =>'Home'
+            ),
+    
+        array(
             'url' =>'browse.php',
-            'text' =>'Browse'
+            'text' =>'Clothes'
             ),
             
             
@@ -11,7 +16,7 @@ $links = array(
         
             
             array(
-            'url' =>'week5/shopcart.php',
+            'url' =>'shopcart.php',
             'text'=>'Shopping Cart'
             )
 
