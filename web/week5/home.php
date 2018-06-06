@@ -5,12 +5,15 @@
 	<title>Modest Clothing Store</title>
     <meta charset = "utf-8"/>
     <link href="style.css" type="text/css" rel="stylesheet" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleis.com/ajax/libs/jquery/2.1.2/jquery.min.js"></script>
+    
 	</head>
 <d class="content">
 	<div class="head">Get 10% Off - Use Code Wear</div>
 
 	<body>
+<?php include_once('nav.php');?>
 
 	<h2>Modest Clothing Store</h2>
 
@@ -116,7 +119,9 @@
 		<input class="sub" class="button" type="submit" value="Submit">
 	</form>
 
-
+<?php include_once('footer.php');?>
+                                                                      
 <div class="footer2"> 
 	&copy; 2018 Modest Clothing created by Cynthia Bampi
 	 </div>
+                    </html>
