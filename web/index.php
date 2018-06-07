@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 
 $dbUrl = getenv('DATABASE_URL');
@@ -53,7 +53,7 @@ foreach($rows as $row) {
     <input type="text" name="name" id="name">
     <input type="submit" value="Search">
 </form>
-=======
+
 <!DOCTYPE html>
 <html>
 
@@ -97,4 +97,5 @@ while($row = $stmt->fetch()){
 ?>
     </body>
 </html>
->>>>>>> 49a80b2f2adae315ac4d08a66776ba3830fb6db6
+
+<h1>Hello, world</h1>
