@@ -30,7 +30,7 @@
 	 	<a href="#" class="fa fa-shopping-bag"></a>
 	</nav>
 	</div>
-<p></p>
+
 
 	<img class='backg' src="http://shoplovelyinlace.com/wp-content/uploads/2016/11/Online-Modest-Clothing-Stores.jpg">
 
