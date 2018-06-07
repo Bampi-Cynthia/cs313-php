@@ -19,17 +19,7 @@
 
 	<h2>Modest Clothing Store</h2>
 
-	<div>
-	<nav class="navbar"> 
-	 	<a href="home.php">Home</a>
-	 	<a href="#">Skirts</a>
-	 	<a href="#">Tops</a>
-	 	<a href="web1.html">Dresses</a>
-	 	<a href="#">Contact</a>
-        <a href='#'>Cart</a>
-	 	<a href="#" class="fa fa-shopping-bag"></a>
-	</nav>
-	</div>
+	
 
 
 	<img class='backg' src="http://shoplovelyinlace.com/wp-content/uploads/2016/11/Online-Modest-Clothing-Stores.jpg">

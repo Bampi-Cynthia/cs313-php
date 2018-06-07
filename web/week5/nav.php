@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 $links = array(
         array(
@@ -35,7 +35,6 @@ foreach($links as $link){
     
 }
 
-=======
 <?php
 $links = array(
         array(
@@ -67,5 +66,4 @@ foreach($links as $link){
     
 }
 
->>>>>>> 49a80b2f2adae315ac4d08a66776ba3830fb6db6
 ?>
