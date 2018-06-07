@@ -11,10 +11,11 @@
     <script src="https://ajax.googleis.com/ajax/libs/jquery/2.1.2/jquery.min.js"></script>
     
 	</head>
-<d class="content">
+    <body>
+<div class="content">
 	<div class="head">Get 10% Off - Use Code Wear</div>
 
-	<body>
+	
 <?php include_once('nav.php');?>
 
 	<h2>Modest Clothing Store</h2>
@@ -116,4 +117,6 @@
 <div class="footer2"> 
 	&copy; 2018 Modest Clothing created by Cynthia Bampi
 	 </div>
+
+     </body>
                     </html>
