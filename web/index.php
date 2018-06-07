@@ -21,7 +21,7 @@ if(!empty($_POST['name'])) {
     $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
     $likename = '%' . $name . '%';
 
-    $stmt = $db->prepare('SELECT * FROM product.name WHERE name LIKE :name');
+    $stmt = $db->prepare('SELECT * FROM product WHERE name LIKE :name');
     $stmt->bindValue(':name', $likename, PDO::PARAM_STR);
     $stmt->execute();
     $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -29,7 +29,7 @@ if(!empty($_POST['name'])) {
 }
 
 else {
-    $stmt = $db->prepare('SELECT * FROM product.name');
+    $stmt = $db->prepare('SELECT * FROM product');
     $stmt->execute();
     $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
