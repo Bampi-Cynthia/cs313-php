@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
 
 1. Describe something from your database that you think came together very nicely.
@@ -22,4 +23,30 @@ x	D - Meets requirements
 
 
 6. Provide a brief justification (1-2 sentences) for selecting that category.
+=======
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Describe something from your database that you think came together very nicely.
+I dont see anything special on it. I just tried to make as complete as I can.
+
+2. Describe something from your database that you think could be improved or extended in the future.
+I feel there are still some items missing, but I think I will be able to implement that in future assignments. 
+
+3. Briefly describe the "coolest" thing you learned while completing this assignment.
+It was so cool to put into practice and think by myself in SQL. I can finally see the use for it.
+
+4. Briefly describe two principles of good database design.
+1. Make the database structure flexible to meet future adjustments.
+2. Define data types and constraints.
+
+5. Please select the category you feel best describes your assignment:
+	A - Some attempt was made
+	B - Developing, but significantly deficient
+	C - Slightly deficient, but still mostly adequate
+x	D - Meets requirements
+	E - Shows creativity and excels above and beyond requirements
+
+
+6. Provide a brief justification (1-2 sentences) for selecting that category.
+>>>>>>> 49a80b2f2adae315ac4d08a66776ba3830fb6db6
 The database meets the requirements for the assignment. It works and feels creative and complete for now to me. 

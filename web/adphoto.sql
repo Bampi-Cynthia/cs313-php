@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 UPDATE product SET 
 
 description ='floral',
@@ -23,17 +22,3 @@ UPDATE product SET
 description = 'wonder tee',
 image_url='wondertee.jpg' WHERE name = 'Wonder Tee';
 SELECT * FROM product WHERE name = 'Wonder Tee';
-=======
-UPDATE product SET 
-
-description ='floral',
-image_url = 'floral skirt.jpg' WHERE name = 'Floral Maxi Skirt';
-SELECT * FROM product WHERE name ='Floral Maxi Skirt';
-
-
-
-
-
-image_url = 'http://via.placeholder.com/500x500.png' WHERE name = '';
-
->>>>>>> 49a80b2f2adae315ac4d08a66776ba3830fb6db6
