@@ -37,7 +37,7 @@
 
 	<div><p>New Arrivals</p></div>
 	<div class="pics">
-	<a href="#"><img src="https://cdn.shopify.com/s/files/1/0844/5511/products/DB18050055_1805_BlueStripe_Front_compact.jpg?v=1525274194" width: 600px;
+	<a href="https://pacific-caverns-35170.herokuapp.com/week5/browse.php"><img src="https://cdn.shopify.com/s/files/1/0844/5511/products/DB18050055_1805_BlueStripe_Front_compact.jpg?v=1525274194" width: 600px;
 	height: 400px;></a>
 	<div class="desc">Drop Waist Dress</div>
 	<div class="desc">$42.99</div>
@@ -45,7 +45,7 @@
 
 
 	<div class="pics">
-	<a href="#"><img src="https://cdn.shopify.com/s/files/1/0844/5511/products/EM18056002_1805_White_Main_compact.jpg?v=1525274409" width: 600px;
+	<a href="https://pacific-caverns-35170.herokuapp.com/week5/browse.php"><img src="https://cdn.shopify.com/s/files/1/0844/5511/products/EM18056002_1805_White_Main_compact.jpg?v=1525274409" width: 600px;
 	height: 400px;></a>
 	<div class="desc">Double Peplum Top</div>
 	<div class="desc">$34.99</div>
@@ -53,21 +53,21 @@
 
 
 	<div class="pics">
-	<a href="#"><img src="https://cdn.shopify.com/s/files/1/0844/5511/products/EM18056001_1805_NavyWhite_Front_compact.jpg?v=1525215589" width: 600px;
+	<a href="https://pacific-caverns-35170.herokuapp.com/week5/browse.php"><img src="https://cdn.shopify.com/s/files/1/0844/5511/products/EM18056001_1805_NavyWhite_Front_compact.jpg?v=1525215589" width: 600px;
 	height: 400px;></a>
 	<div class="desc">Ruffle Sleeve Blouse</div>
 	<div class="desc">$32.99</div>
 	</div>
     
     <div class="pics">
-	<a href="#"><img src="https://cdn.shopify.com/s/files/1/0844/5511/products/DB18040006_1804_Navy_M1_compact.jpg?v=1523918008g" width: 600px;
+	<a href="https://pacific-caverns-35170.herokuapp.com/week5/browse.php"><img src="https://cdn.shopify.com/s/files/1/0844/5511/products/DB18040006_1804_Navy_M1_compact.jpg?v=1523918008g" width: 600px;
 	height: 400px;></a>
 	<div class="desc">Plaza perfect Skirt</div>
 	<div class="desc">$31.99</div>
 	</div>
     
     <div class="pics">
-	<a href="#"><img src="https://cdn.shopify.com/s/files/1/0844/5511/products/2018-3-1-DownEast-March-Web-475_compact.jpg?v=1520013294" width: 600px;
+	<a href="https://pacific-caverns-35170.herokuapp.com/week5/browse.php"><img src="https://cdn.shopify.com/s/files/1/0844/5511/products/2018-3-1-DownEast-March-Web-475_compact.jpg?v=1520013294" width: 600px;
 	height: 400px;></a>
 	<div class="desc">Floral Skirt</div>
 	<div class="desc">$35.00</div>
