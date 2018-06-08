@@ -65,7 +65,7 @@
 	</div>
 
 
-	<div class="shop"><button>Shop All</button></div>
+	<div class="shop"><button src='https://pacific-caverns-35170.herokuapp.com/week5/browse.php'>Shop All</button></div>
     
 
 	<div class="hr">
