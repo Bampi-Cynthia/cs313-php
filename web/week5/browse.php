@@ -15,7 +15,7 @@
     <body>
 <?php
 require 'db.php';
-//$currentPage = 'browse.php';
+$currentPage = 'browse.php';
 require 'nav.php';
 ?>
 
