@@ -10,7 +10,7 @@ array(
 'text' =>'Clothes'
 ),           
 array(
-'url' =>'week3/index.php',
+'url' =>'index.php',
 'text'=>'Shopping Cart'
 ));
 

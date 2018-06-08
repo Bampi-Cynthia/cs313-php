@@ -1,87 +1,68 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
 <head>
-    
-    <title> Clothing Store</title>
-    <style>
-    
-    </style>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico" rel="stylesheet">  
-    </head>
+    <meta charset="utf-8" />
+    <meta name="autor" content="Cynthia Bampi">
+    <title>Shopping Cart | CS 313</title>
+    <link rel="stylesheet" type="text/css" href="shopcart.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <body>
-    <h1>Clothing Store</h1>
+    <h2>Shopping Cart</h2>
+    
 
 <?php
-require('db.php');
-$stmt = $db->query("SELECT 
-product.id,
-product.name,
-category.name AS category_name,
-product.price,
-size.name AS size
-FROM product
-INNER JOIN category 
-ON product.category_id = category.id
 
+// Must be called anywhere you want to use sessions!
+session_start();
 
-INNER JOIN size
-ON product.size_id = size.id;");
-$stmt->execute();
-while($row = $stmt->fetch()){
-   // echo '<pre>';//
-   // var_dump($row);//
-  //  echo '</pre>';//
-    echo '<h2>'. $row['name']."</h2>";
-    
+// All session data is stored in session "superglobal"
+if (!isset($_SESSION['cart'])) {
+  $_SESSION['cart'] = array(
+    'dress' => 0, 
+    'top'   => 0,
+    'short' => 0
+  );
 }
-        
+   
+require('products.php');
+
 ?>
-    </body>
-=======
-<!DOCTYPE html>
-<html>
-
-<head>
-    
-    <title> Clothing Store</title>
-    <style>
-    
-    </style>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico" rel="stylesheet">  
-    </head>
-    
-    <body>
-    <h1>Clothing Store</h1>
-
-<?php
-require('db.php');
-$stmt = $db->query("SELECT 
-product.id,
-product.name,
-category.name AS category_name,
-product.price,
-size.name AS size
-FROM product
-INNER JOIN category 
-ON product.category_id = category.id
 
 
-INNER JOIN size
-ON product.size_id = size.id;");
-while($row = $stmt->fetch()){
-   // echo '<pre>';//
-   // var_dump($row);//
-  //  echo '</pre>';//
-    echo '<h2>'. $row['name']."</h2>";
-    
-}
-        
-?>
-    </body>
->>>>>>> 49a80b2f2adae315ac4d08a66776ba3830fb6db6
-</html>
+
+    <?php
+      foreach ($products as $key => $data) { 
+      
+    ?>
+    <img class="dress" src="<?php echo $data['image']; ?>">
+     <?php 
+        echo $data['description']; 
+     ?>
+       <form action="add.php" method="POST"> 
+       <?php 
+       echo '<input type="hidden" name="item" value="' . $key . '">'; 
+
+       ?>
+       <input type="number" name="qty" min="1">
+            <button>Add</button>
+            
+       </form>
+   
+      <?php 
+    }
+       ?>
+  <form action="remove.php" method="POST">
+  <select name="item">
+    <?php
+      foreach ($products as $key => $data) {
+        echo "<option value=\"{$key}\">{$data['label']}</option>";
+      }
+    ?>
+  </select>
+  <input type="number" name="qty" min="1">
+  <button>Remove</button>
+</form>
+
+<a href="cart.php"><img class='cart' src="http://www.clker.com/cliparts/J/C/X/z/E/s/shopping-cart-hi.png" alt ="cart"></a>
+<a href="checkout.php">Check Out</a>
