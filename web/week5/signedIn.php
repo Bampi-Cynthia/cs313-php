@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-	$username = $_POST['username'];
+	$username = $_POST['user'];
 	$password = $_POST['password'];
 
 	
@@ -10,10 +10,10 @@ session_start();
 	require('connect.php');
 	$db = get_db();
     
-    $query = 'SELECT password FROM users.users WHERE username = :username';
+    $query = 'SELECT password FROM users WHERE user = :user';
 
     			$statement = $db->prepare($query);
-    			$statement->bindValue(':username', $username);
+    			$statement->bindValue(':user', $user);
     			
     			$statement->execute();
 
@@ -21,7 +21,7 @@ session_start();
    		
 
    		if (password_verify($password, $fetch_user['password'])) {
-   			$_SESSION['username'] = $username;
+   			$_SESSION['user'] = $user;
    			header('Location: welcome.php');
    		}
 

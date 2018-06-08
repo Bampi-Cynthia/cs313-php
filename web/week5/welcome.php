@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-if (!isset($_SESSION['username'])) {
+if (!isset($_SESSION['user'])) {
 	header('Location: signIn.php');
 	die();
 }
@@ -15,7 +15,7 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
 
-	<p>Welcome <?php echo htmlspecialchars($_SESSION['username']) ?></p>
+	<p>Welcome <?php echo htmlspecialchars($_SESSION['user']) ?></p>
 
 </body>
 </html>

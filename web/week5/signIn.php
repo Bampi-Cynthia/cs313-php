@@ -9,8 +9,8 @@ session_start();
 <body>
 
 <form id="signIn" method="POST" action="signedIn.php">
-	<label for="username">Username</label>
-	<input type="text" name="username">
+	<label for="user">Username</label>
+	<input type="text" name="user">
 	<label for="password">Password:</label>
 	<input type="password" name="password">
 	<input type="button" name="signIn" value="Sign In">
