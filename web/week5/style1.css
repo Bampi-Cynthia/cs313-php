@@ -26,14 +26,17 @@ h2{
     width: 490px;
     float: left;
 }
-#main table {
-    width:480px;
-}
+    #main table {
+        width:480px;
+    }
 
-#main table th{
-    padding:10px;
-    background-color: orangered;
-}
+        #main table th{
+        padding:10px;;
+        background-color: orangered;
+        color:#eee;
+        text-align:left
+        }
+
 #sidebar {
     width: 200px;
     float: left;
