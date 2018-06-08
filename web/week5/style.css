@@ -256,6 +256,11 @@ button:hover  {
 }
 
 
-.product img {
-  max-width: 100%;
+    .product img {
+        max-width: 100%;
+    }
 
+header{
+    background-color:black;
+    color:white;
+}
