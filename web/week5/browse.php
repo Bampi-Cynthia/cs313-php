@@ -27,7 +27,7 @@ require 'nav.php';
     $stmt = $db->query("SELECT id, name FROM category");
     $stmt->execute();
     while ($row = $stmt->fetch()) {
-        echo '<value="'. $row['id'] . '">'.$row['name'] . '</value>';
+        echo '<option value="'. $row['id'] . '">'.$row['name'] . '</option>';
         
     }
     
