@@ -64,3 +64,6 @@ function buttonAnimate() {
   button.classList.add('product__button--success');
 }
         </script>
+        
+    </body>
+</html>
