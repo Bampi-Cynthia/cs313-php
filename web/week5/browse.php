@@ -56,7 +56,7 @@ INNER JOIN size
 ON product.size_id = size.id
 WHERE category.id = :cat_id
 ;");
-    $stmt->bindValue('cat_id' , PDO::PARAM_INT );
+    $stmt->bindValue('cat_id' , $_POST['category'],PDO::PARAM_INT );
     
     
 $stmt->execute();
