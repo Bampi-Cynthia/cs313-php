@@ -23,7 +23,7 @@ require 'nav.php';
 <form action='browse.php' method='post'>
 <select name='category'>
     <?php
-    echo isset ($db);
+    
     $stmt = $db->query("SELECT id, name FROM category");
     $stmt->execute();
     while ($row = $stmt->fetch()) {
