@@ -78,10 +78,10 @@
 
 	<div class="column-lside">
 	<ul>
-	<li><a href="web.html">Home</a></li>
-	<li><a href="#">Skirst</a></li>
-	<li><a href="#">Tops</a></li>
-	<li><a href="web1.html">Dresses</a></li>
+	<li><a href="https://pacific-caverns-35170.herokuapp.com/week5/home.php">Home</a></li>
+	<li><a href="https://pacific-caverns-35170.herokuapp.com/week5/browse.php">Skirst</a></li>
+	<li><a href="https://pacific-caverns-35170.herokuapp.com/week5/browse.php">Tops</a></li>
+	<li><a href="https://pacific-caverns-35170.herokuapp.com/week5/browse.php">Dresses</a></li>
 	<li><a href="#">Contact</a></li>
 	</ul>
 	</div>
