@@ -1,7 +1,8 @@
 
 <?php
-$url = getenv('DATABASE_URL');
-$options = parse_url($url);
+echo "inside database";
+//$url = getenv('DATABASE_URL');
+//$options = parse_url($url);
 //$host = $options['host'];
 //$port = $options['port'];
 //$user = $options['user'];
