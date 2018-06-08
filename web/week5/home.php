@@ -86,15 +86,6 @@
 	</ul>
 	</div>
     
-	<div class="column-rside">
-	<ul>
-	<li><a href="#">Shipping</a></li>
-	<li><a href="#">Returns</a></li>
-	<li><a href="#">Store Policy</a></li>
-	<li><a href="#">Payment Methods</a></li>
-	<li><a href="#">FAQ</a></li>
-	</ul>
-	</div>
 
 	</div>
 </div>
