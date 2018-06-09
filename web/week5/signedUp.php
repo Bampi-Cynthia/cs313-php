@@ -18,9 +18,9 @@ $stmt = $db->prepare('INSERT INTO users (username, password) VALUES (:username, 
 
 // Bind values to the query
 
-$stmt->bindValue('username', $username, PDO::PARAM_STR);
+$stmt->bindValue('Admin', $username, PDO::PARAM_STR);
 
-$stmt->bindValue('password', $hash, PDO::PARAM_STR);
+$stmt->bindValue('1234#', $hash, PDO::PARAM_STR);
 
 
 
