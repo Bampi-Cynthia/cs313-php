@@ -4,19 +4,27 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sign In</title>
+	<title>Log In</title>
 </head>
 <body>
 
-<form id="signIn" method="POST" action="signedIn.php">
-	<label for="user">Username</label>
-	<input type="text" name="user">
-	<label for="password">Password:</label>
-	<input type="password" name="password">
-	<input type="button" name="signIn" value="Sign In">
-</form>
+<form id='login' action='signIn.php' method='post' accept-charset='UTF-8'>
 
-<p><a href="signUp.php">Sign Up</a></p>
+<fieldset >
+
+<legend>Login</legend>
+    
+<input type='hidden' name='submitted' id='submitted' value='1'/>
+<label for='username' >UserName*:</label>
+<input type='text' name='username' id='username'  maxlength="50" />
+<label for='password' >Password*:</label>
+<input type='password' name='password' id='password' maxlength="50" />
+<input type='submit' name='Submit' value='Submit' />
+    </fieldset>
+    </form>
+    
+
+
 
 
 </body>
