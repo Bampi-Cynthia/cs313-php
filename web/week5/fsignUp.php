@@ -121,10 +121,6 @@ if (!isset($_POST['submitok'])):
 
 </form>
 
-<?php
-else:
-// Process signup submission
-dbConnect('sessions');
 
 </body>
 
