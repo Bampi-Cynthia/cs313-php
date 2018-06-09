@@ -30,7 +30,7 @@ try {
 
   $stmt->execute();
 
-  header('Location: index.php');
+  header('Location: home.php');
 
 } catch (PDOException $e) {
 
