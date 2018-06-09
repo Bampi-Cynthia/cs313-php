@@ -147,11 +147,11 @@ while($row = $stmt->fetch()){
 	echo '<p>'. $row['description']."</p>";
 
     echo '<h4>'. $row['price']."</h4>";
+
     echo '</div>';
 
 }
 
-}
 
 
 
@@ -160,3 +160,4 @@ while($row = $stmt->fetch()){
         </div>
 
     </body>
+
