@@ -14,6 +14,9 @@ The page has a profesisonal design look, you can see the clothes, choose, select
 
 5. Briefly describe any pieces of the assignment that are not yet working correctly.
 My login in page, I did at least four types of login pages, and none are working. I looked for help d=from classmates and tutor, but it wasnt able to get aditional help.
+https://pacific-caverns-35170.herokuapp.com/week5/signIn.php
+https://pacific-caverns-35170.herokuapp.com/week5/submitform.php
+
 
 6. Provide evidence of your database design by including the SQL file with the commands used to create your tables, etc. (This is ideally the exact file you used to create them. 
 But if you don't have that, you could dump the SQL that describes your database from Heroku to a file "output.sql" using the following 
