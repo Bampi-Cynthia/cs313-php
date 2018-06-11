@@ -1,0 +1,71 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Project Title / One sentence description:
+It's a clothing store, e-commerce.
+
+2. The Heroku URL for your web application:
+https://pacific-caverns-35170.herokuapp.com/week5/home.php
+
+3. The GitHub URL for your source code repository:
+https://github.com/Bampi-Cynthia/cs313-php
+
+4. Please provide a brief description of what your project does and how to use the application. Make sure to include any required information like a username and password.
+The page has a profesisonal design look, you can see the clothes, choose, select quantity, and and remove from cart, you can get to the check out cart and close your shopping.
+
+5. Briefly describe any pieces of the assignment that are not yet working correctly.
+My login in page, I did at least four types of login pages, and none are working. I looked for help d=from classmates and tutor, but it wasnt able to get aditional help.
+
+6. Provide evidence of your database design by including the SQL file with the commands used to create your tables, etc. (This is ideally the exact file you used to create them. 
+But if you don't have that, you could dump the SQL that describes your database from Heroku to a file "output.sql" using the following 
+command: heroku run 'pg_dump $DATABASE_URL' > output.sql
+
+Submit this SQL file in addition to the submission file for this assignment.
+
+
+--------------------------------
+Project Self-assessment
+--------------------------------
+
+For each of the following requirements, please replace the "(YES/NO)" with either "YES" or "NO" as to whether or not your work met this requirement.
+
+Requirements
+------------
+(YES) 1. Your web application is running in Heroku.
+(YES) 2. Your latest source code is in GitHub.
+(YES) 3. Your web application uses data stored in the session.
+(YES) 4. Your web application uses a PostgreSQL database in Heroku.
+(YES) 5. Your database schema includes foreign key references.
+(YES) 6. Your web application includes an SQL SELECT query that joins multiple tables.
+(NO) 7. Your web application includes an SQL UPDATE statement.
+
+For each of the following criteria, please replace the "(A-E)" with either the "A", "B", "C", "D", or "E" category you feel best describes your work. Include a 1-2 sentence justification.
+
+Categories
+----------
+   A - Some attempt was made.
+   B - Developing, but significantly deficient.
+ x C - Slightly deficient, but still mostly adequate.
+   D - Meets requirements.
+   E - Shows creativity and excels above and beyond requirements.
+
+Criteria
+----------
+(A) 1. Professional look and feel.
+
+(B) 2. Accomplishes a meaningful/interesting task.
+
+(A) 3. Demonstrates skill with HTML, CSS, and JavaScript.
+
+(B) 4. Demonstrates skill with PHP.
+
+(B) 5. Demonstrates good database design principles.
+
+(B) 6. Demonstrates skill in database retrieval.
+
+(B) 7. Demonstrates skill in database modification.
+
+(B) 8. Demonstrates mastery of client-side/server-side coordination and communication.
+
+(A-E) 9. Overall project evaluation.
+I did all I could to do the best project. I like the ways it turned out, but I wish I could have done more. I did had problems with my github, it corrupts all my coding, and I needed to fix one by one, and use my tutors help for that. 
+But I wasnt able to get help with classmates and tutors for my PHP and database issues. 
