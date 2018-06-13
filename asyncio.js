@@ -1,5 +1,5 @@
 var fs = require('fs')
-
-var contents = fs.readFile(process.argv[2])
-var lines = contents.toString().split('\n').length - 1
-console.log(lines)
+var file = process.argv[2]
+output = fs.readFile(file, 'utf8', function(err, content){
+	console.log(content.split('\n').length - 1);
+});
