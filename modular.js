@@ -2,7 +2,7 @@ var fs = require('fs')
 var path = require('path')
  
 var dir = process.argv[2]
-var filterStr = process.argv[3]
+var filterStr ="." process.argv[3]
  
 function getFiles(dir, filterStr, callback) {
  
@@ -20,7 +20,7 @@ function getFiles(dir, filterStr, callback) {
  
 getFiles(dir, filterStr, function (err, list) {
   if (err)
-    return console.error('There was an error:', err)
+    return console.error('Error:', err)
  
   list.forEach(function (file) {
     console.log(file)
